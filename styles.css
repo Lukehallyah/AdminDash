@@ -91,6 +91,23 @@ ul{
   color: white;
 }
 
+.sidebar li img{
+  height: 10vh;
+  width: 25px;
+  
+}
+ .sidebar li{
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  border: 2px solid black;
+ }
+
+ .sidebar li h4{
+  display: flex;
+  justify-content: flex-end;
+}
+
 
 /*Header*/
 
