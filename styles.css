@@ -81,6 +81,8 @@ ul{
   grid-template-rows: 20% 1fr;
 }
 
+/*SideBar*/
+
 .sidebar{
   border: 2px solid black;
   grid-row: 1/3;
@@ -88,6 +90,9 @@ ul{
   background-color: rgb(87, 154, 232);
   color: white;
 }
+
+
+/*Header*/
 
 .header{
   border: 2px solid black;
@@ -114,6 +119,40 @@ ul{
   border-radius: 5px;
 }
 
+.profileName{
+  display: grid;
+  grid-column: repeat(3,1fr);
+  grid-auto-flow: column;
+  /*changes from 'row oriented' to 'column oriented' like flexbox*/
+}
+
+.profile{
+  display: grid;
+  grid-template: 25px 25px/10% 2fr;
+  margin-left: 4rem;
+  margin-bottom: 1rem;
+
+}
+
+.profile img{
+  grid-area: 1/1/3/2;
+}
+
+
+.buttonBox{
+  height: 35px;
+  margin-right: 3rem;
+  display: grid;
+  grid-column: 1fr 1fr 1fr;
+  grid-auto-flow: column;
+  gap: 25px;
+}
+.buttonBox button{
+  border-radius: 5px;
+  background-color: rgb(120, 120, 204);
+  color: white;
+}
+/*Article*/
 
 .mainContent{
   border: 2px solid blue;
