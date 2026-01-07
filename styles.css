@@ -172,6 +172,10 @@ ul{
   background-color: rgb(120, 120, 204);
   color: white;
 }
+
+
+
+
 /*Article*/
 
 .mainContent{
@@ -188,11 +192,10 @@ ul{
 }
 
 .articles{
-  border: 2px solid red;
   grid-area: 1/1/3/2;
-  background-color: red;
+  background-color: lightblue;
   display: grid;
-  grid-template: 20px repeat(3, minmax(70px, 200px))/repeat(2,1fr);
+  grid-template: 20px repeat(3, minmax(70px, 150px))/repeat(2,1fr);
   gap:15px;
 }
 
